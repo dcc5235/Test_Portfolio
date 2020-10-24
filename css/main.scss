@@ -7,6 +7,12 @@ $colors-primary: (
   light: #fff0f0,
 );
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: map-get($colors-primary, primary);
 }
