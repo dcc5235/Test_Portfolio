@@ -1,18 +1,24 @@
 // COLORS
 // https://colorhunt.co/palette/206782
 $colors-primary: (
-  primary: #ebd4d4,
+  primary: ##ec9826,
   dark: #463333,
   med: #835858,
-  light: #fff0f0,
+  light: #ec9826,
 );
 
+// FONT
+$font-primary: "Montserrat Alternates", sans-serif;
+
+// LAYOUT
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: fangsong;
 }
 
 body {
-  background-color: map-get($colors-primary, primary);
+  background-color: #e7a142;
+  font-weight: 400;
 }
